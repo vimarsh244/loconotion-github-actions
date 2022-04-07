@@ -25,6 +25,9 @@ jobs:
       - name: Clean
         run: rm -f export/*
         
+      - name: Clone Loconotion
+        run: git clone https://github.com/leoncvlt/loconotion.git
+      
       # Install dependencies
       - name: Install
         run: pip3 install -r loconotion/requirements.txt
