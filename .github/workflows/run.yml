@@ -34,7 +34,7 @@ jobs:
         
       # Run loconotion
       - name: Run
-        run: cd loconotion && python3 loconotion --clean ../site.toml
+        run: cd loconotion && python3 loconotion ../site.toml
         
       # Copy into github pages folder
       - name: Copy
